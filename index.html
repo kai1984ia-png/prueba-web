@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prueba de publicación web — Kai</title>
+<style>
+  :root{
+    --bg:#0d1117; --card:#161b22; --border:#30363d; --fg:#e6edf3;
+    --muted:#8b949e; --accent:#2f81f7; --ok:#3fb950;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+       font-family:"Segoe UI",system-ui,-apple-system,sans-serif;line-height:1.6}
+  .wrap{max-width:860px;margin:0 auto;padding:48px 24px 64px}
+  .badge{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--ok);
+         border:1px solid var(--ok);border-radius:999px;padding:4px 12px;margin-bottom:20px}
+  .dot{width:8px;height:8px;border-radius:50%;background:var(--ok)}
+  h1{font-size:34px;margin:0 0 8px;letter-spacing:-.5px}
+  h2{font-size:19px;margin:36px 0 14px}
+  .sub{color:var(--muted);font-size:17px;margin:0 0 6px}
+  .grid{display:grid;gap:14px;grid-template-columns:1fr 1fr 1fr}
+  @media(max-width:720px){.grid{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:18px}
+  .card h3{margin:0 0 6px;font-size:15px}
+  .card p{margin:0;color:var(--muted);font-size:14px}
+  .tag{display:inline-block;font-size:11px;letter-spacing:.6px;text-transform:uppercase;
+       color:var(--accent);border:1px solid var(--accent);border-radius:4px;
+       padding:1px 7px;margin-bottom:10px}
+  .rec{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent) inset}
+  table{width:100%;border-collapse:collapse;font-size:14px;margin-top:10px}
+  th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--border)}
+  th{color:var(--muted);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.5px}
+  code{background:#21262d;border:1px solid var(--border);border-radius:5px;
+       padding:2px 6px;font-family:Consolas,monospace;font-size:13px}
+  footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--border);
+         color:var(--muted);font-size:13px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="badge"><span class="dot"></span> Servida localmente — aún no publicada</div>
+  <h1>Prueba de publicación web</h1>
+  <p class="sub">Esta página existe para demostrar que el pipeline funciona de punta a punta.</p>
+  <p class="sub">Si la estás viendo en <code>localhost</code>, la parte reversible está lista. Faltaría solo un paso: subirla a internet.</p>
+
+  <h2>Formas reales de publicar (verificadas en esta máquina)</h2>
+  <div class="grid">
+    <div class="card rec">
+      <span class="tag">Recomendada</span>
+      <h3>GitHub Pages</h3>
+      <p>Gratis, sin tarjeta. URL fija tipo <code>usuario.github.io/sitio</code>. Ya tengo tu <code>gh</code> autenticado.</p>
+    </div>
+    <div class="card">
+      <h3>Túnel temporal</h3>
+      <p>Expone esta PC con una URL pública que muere al cerrar. Cero cuenta, pero expone la máquina. Solo para demos.</p>
+    </div>
+    <div class="card">
+      <h3>Cloudflare / Netlify</h3>
+      <p>Requieren crear cuenta nueva. Más control (dominio propio), más fricción.</p>
+    </div>
+  </div>
+
+  <h2>Qué necesito de ti</h2>
+  <table>
+    <tr><th>Sitio</th><th>Costo</th><th>URL que obtienes</th><th>Requiere</th></tr>
+    <tr><td>GitHub Pages</td><td>Gratis</td><td>kai1984ia-png.github.io/…</td><td>Tu OK</td></tr>
+    <tr><td>Túnel temporal</td><td>Gratis</td><td>algo.trycloudflare.com</td><td>Instalar cloudflared</td></tr>
+    <tr><td>Dominio propio</td><td>~US$12/año</td><td>loquesea.com</td><td>Tarjeta + tu OK</td></tr>
+  </table>
+
+  <p class="sub" style="margin-top:22px">Nada de esto sale a internet hasta que tú lo autorices.</p>
+
+  <footer>
+    <span>Generado por Kai · Hermes</span>
+    <span id="fecha"></span>
+  </footer>
+</div>
+<script>
+  document.getElementById('fecha').textContent =
+    new Date().toLocaleDateString('es-PE',{day:'2-digit',month:'long',year:'numeric'});
+</script>
+</body>
+</html>
