@@ -1,24 +1,24 @@
 {
- "actualizado_utc": "2026-11-06T16:39:20.899115+00:00",
+ "actualizado_utc": "2026-11-06T16:50:21.363577+00:00",
  "stale": [],
  "XRP": {
-  "precio": 1.1956,
-  "cambio_24h_pct": -4.46
+  "precio": 1.1933,
+  "cambio_24h_pct": -4.38
  },
  "SOL": {
   "precio": 90.45,
-  "cambio_24h_pct": -0.34
+  "cambio_24h_pct": -0.02
  },
  "NVDA": {
-  "precio": 189.1,
-  "cambio_dia_pct": 4.67
+  "precio": 188.0,
+  "cambio_dia_pct": 4.07
  },
  "XTB.WA": {
   "precio": 132.54,
   "cambio_dia_pct": 4.97
  },
  "KSPI": {
-  "precio": 91.93,
-  "cambio_dia_pct": 1.37
+  "precio": 91.97,
+  "cambio_dia_pct": 1.42
  }
 }
