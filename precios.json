@@ -1,13 +1,13 @@
 {
- "actualizado_utc": "2026-11-08T05:10:25.689341+00:00",
+ "actualizado_utc": "2026-11-08T05:21:25.664418+00:00",
  "stale": [],
  "XRP": {
-  "precio": 1.164,
-  "cambio_24h_pct": 0.75
+  "precio": 1.1631,
+  "cambio_24h_pct": 0.7
  },
  "SOL": {
-  "precio": 89.32,
-  "cambio_24h_pct": -0.74
+  "precio": 89.34,
+  "cambio_24h_pct": -0.79
  },
  "NVDA": {
   "precio": 186.64,
