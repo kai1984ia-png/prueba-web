@@ -1,38 +1,38 @@
 {
- "actualizado_utc": "2026-11-18T19:15:08.825078+00:00",
+ "actualizado_utc": "2026-11-18T19:26:08.838809+00:00",
  "stale": [],
  "XRP": {
-  "precio": 0.9748,
-  "cambio_24h_pct": 1.45,
+  "precio": 0.9729,
+  "cambio_24h_pct": 1.33,
   "historia_d0": 0.9144,
   "historia_d1": 0.9742,
   "historia_d2": 0.9553,
   "historia_d3": 0.9837,
-  "historia_d4": 0.9748
+  "historia_d4": 0.9729
  },
  "SOL": {
-  "precio": 73.52,
-  "cambio_24h_pct": 1.06
+  "precio": 73.42,
+  "cambio_24h_pct": 1.12
  },
  "NVDA": {
-  "precio": 151.81,
-  "cambio_dia_pct": -5.98,
+  "precio": 151.66,
+  "cambio_dia_pct": -6.07,
   "historia_d0": 166.19,
   "historia_d1": 162.85,
   "historia_d2": 156.14,
   "historia_d3": 155.46,
-  "historia_d4": 151.81
+  "historia_d4": 151.63
  },
  "XTB.WA": {
   "precio": 110.0,
   "cambio_dia_pct": -4.55
  },
  "KSPI": {
-  "precio": 89.13,
-  "cambio_dia_pct": -1.43
+  "precio": 89.08,
+  "cambio_dia_pct": -1.48
  },
  "GOOGL": {
-  "precio": 283.86,
-  "cambio_dia_pct": 0.2
+  "precio": 284.02,
+  "cambio_dia_pct": 0.26
  }
 }
