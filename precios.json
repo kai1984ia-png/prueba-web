@@ -1,6 +1,9 @@
 {
- "actualizado_utc": "2026-11-21T04:58:00.349039+00:00",
- "stale": [],
+ "actualizado_utc": "2026-11-21T05:09:00.161900+00:00",
+ "stale": [
+  "XRP",
+  "SOL"
+ ],
  "XRP": {
   "precio": 0.8762,
   "cambio_24h_pct": -8.83,
